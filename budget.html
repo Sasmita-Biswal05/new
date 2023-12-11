@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="budget.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+    <div id="home">
+        
+        <div id="image">
+            
+            <header class="head">
+            
+                <img src="https://i.pinimg.com/originals/04/40/03/044003035fdeb6fc3aaa0f1093721126.png" alt="logo" class="gatimage">
+                 <h1>Wed String</h1>
+                <nav class="navbar">
+                    <a href="/home1.html#about">About</a>
+                    <a href="/home1.html#home">Home</a>
+                    <a href="/checklist.html">Wedding-checklist</a>
+                    <a href="budget.html">Budget Tracker</a>
+                    <a href="/home1.html#contactus">Contact Us</a></div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <h1>Expense Tracker</h1>
+    <div id="container">
+        <select id="type">
+            <option disabled selected value="">Please Select an option</option>
+            <option value="Venue">Venue</option>
+            <option value="Decoration">Decoration</option>
+            <option value="Food">Food</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Photography">Photography</option>
+            <option value="Gifts & Favours">Gifts & Favours</option>
+            <option value="Attire">Attire</option>
+            <option value="Makeup">Makeup</option>
+            <option value="Invitation">Invitation</option>
+            <option value="Transportation">Transportation </option>
+            <option value="Accomodation">Accomodation </option>
+            <option value="Miscellaneous">Miscellaneous </option>
+        </select>
+        <input type="text" placeholder="Description" id="descripitionInput">
+        <input type="number"  placeholder="Amount" id="amountInput">
+        <input type="date" id="dateInput">
+        <button id="button" class="btn btn-primary">Add Expense</button>
+    </div>
+    <div id="table-container">
+        <h2>Expenses List</h2>
+        <table id="table">
+            <tr>
+                <th>Type</th>
+                <th>Descripition</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">&copy 2023 Wed String-Wedding checklist and budget tracker</footer>
+    <script src="budget.js"></script>
+</body>
+</html>
